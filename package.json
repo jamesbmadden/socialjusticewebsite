@@ -1,0 +1,19 @@
+{
+  "name": "socialjusticewebsite",
+  "version": "0.1.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamesbmadden/socialjusticewebsite.git"
+  },
+  "author": "James Madden & Sophia Li",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jamesbmadden/socialjusticewebsite/issues"
+  },
+  "homepage": "https://github.com/jamesbmadden/socialjusticewebsite#readme"
+}
