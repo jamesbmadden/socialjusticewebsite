@@ -14,6 +14,7 @@ body {
   height: 100vh;
   background-image: url('./assets/header_img.jpg');
   background-size: cover;
+  background-attachment: fixed;
   display: flex;
   align-items: center;
   justify-content: center;
