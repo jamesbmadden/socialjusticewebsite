@@ -29,4 +29,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: 1.5rem;
+}
+.navbar a {
+  margin: 1.5rem;
 }
