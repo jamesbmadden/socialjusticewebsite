@@ -6,6 +6,7 @@
 body {
   margin: 0;
   font-family: 'Helvetica Neue';
+  background: rgb(112, 133, 163);
 }
 
 .header {
@@ -28,6 +29,13 @@ body {
   height: 100%; width: 100%;
   background-color: rgba(45, 77, 139, 0.5);
 }
+.header:after {
+  content: "";
+  position: absolute;
+  bottom: 0;    left: 0;
+  height: 8rem; width: 100%;
+  background: linear-gradient(transparent, rgb(112, 133, 163));
+}
 .header h1 {
   font-size: 9vw;
   z-index: 1;
@@ -47,4 +55,40 @@ body {
 }
 .navbar a:not(.selected) {
   opacity: 0.5;
+}
+
+.stats {
+  position: relative;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 2rem;
+  box-sizing: border-box;
+  padding: 2rem;
+  top: -3rem;
+}
+
+.card {
+  background: white;
+  text-align: center;
+  color: #455a64;
+  box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.02),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.028),
+    0 12.5px 10px rgba(0, 0, 0, 0.035),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.042),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.05),
+    0 100px 80px rgba(0, 0, 0, 0.07);
+}
+.card img {
+  box-sizing: border-box;
+  height: 12rem;
+  padding: 1rem;
+}
+.card h1 {
+  font-size: 4vw;
+  margin: 0;
+}
+.highlight-orange {
+  color: #1e88e5;
 }
