@@ -66,9 +66,12 @@ body {
   box-sizing: border-box;
   padding: 2rem;
   top: -3rem;
+  margin-bottom: 48px;
 }
 
 .card {
+  box-sizing: border-box;
+  padding: 0.5rem;
   background: white;
   text-align: center;
   color: #455a64;
