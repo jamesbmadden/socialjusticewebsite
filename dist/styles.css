@@ -63,11 +63,18 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   column-gap: 2rem;
+  row-gap: 2rem;
   box-sizing: border-box;
   padding: 2rem;
   top: -3rem;
   margin-bottom: 48px;
 }
+/*@media only screen and (max-width: 1024px)  {
+  .stats {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+}*/
 
 .card {
   box-sizing: border-box;
@@ -88,11 +95,35 @@ body {
   box-sizing: border-box;
   height: 12rem;
   padding: 1rem;
+  max-width: 100%;
 }
 .card h1 {
   font-size: 4vw;
   margin: 0;
 }
+
+@media only screen and (max-width: 620px) { 
+  .stats {
+    display: block;
+  }
+  .card {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+  }
+  .card h1 {
+    font-size: 2rem;
+    padding-bottom: 0.25rem;
+  }
+  .card h2 {
+    font-size: 1rem;
+    margin: 0;
+  }
+  .card img {
+    height: 8rem;
+  }
+}
+
 .highlight-orange {
   color: #1e88e5;
 }
