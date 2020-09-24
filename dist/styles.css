@@ -106,6 +106,6 @@ body {
   text-decoration: none;
 }
 .citation a:hover {
-  color: #90caf9;
-  background: white;
+  color: black;
+  background: #90caf9;
 }
