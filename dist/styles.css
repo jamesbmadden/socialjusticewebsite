@@ -6,7 +6,7 @@
 body {
   margin: 0;
   font-family: 'Helvetica Neue';
-  background: rgb(112, 133, 163);
+  background: rgb(124, 113, 130);
 }
 
 .header {
@@ -27,14 +27,14 @@ body {
   position: absolute;
   top: 0;       left: 0;
   height: 100%; width: 100%;
-  background-color: rgba(45, 77, 139, 0.5);
+  background-color: rgba(124, 113, 130, 0.5);
 }
 .header:after {
   content: "";
   position: absolute;
   bottom: 0;    left: 0;
   height: 8rem; width: 100%;
-  background: linear-gradient(transparent, rgb(112, 133, 163));
+  background: linear-gradient(transparent, rgb(124, 113, 130));
 }
 .header h1 {
   font-size: 9vw;
@@ -125,7 +125,7 @@ body {
 }
 
 .highlight-orange {
-  color: #1e88e5;
+  color: #a47bba;
 }
 
 .citation {
@@ -136,10 +136,10 @@ body {
   font-size: 1.25rem;
 }
 .citation a {
-  color: #90caf9;
+  color: #cea6e3;
   text-decoration: none;
 }
 .citation a:hover {
   color: black;
-  background: #90caf9;
+  background: #cea6e3;
 }
