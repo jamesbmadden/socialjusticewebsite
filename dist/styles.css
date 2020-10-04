@@ -52,6 +52,8 @@ body {
 }
 .navbar a {
   margin: 1.5rem;
+  color: white;
+  text-decoration: none;
 }
 .navbar a:not(.selected) {
   opacity: 0.5;
