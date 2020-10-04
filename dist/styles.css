@@ -60,6 +60,10 @@ body {
   opacity: 0.5;
   cursor: pointer;
 }
+.instagram-link {
+  position: absolute;
+  right: 1rem;
+}
 
 .stats {
   position: relative;
