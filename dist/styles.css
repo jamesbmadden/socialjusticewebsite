@@ -132,6 +132,7 @@ body {
   }
   .card img {
     height: 8rem;
+    max-width: 160px;
   }
 }
 
