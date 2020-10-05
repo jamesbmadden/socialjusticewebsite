@@ -154,3 +154,25 @@ body {
   color: black;
   background: #cea6e3;
 }
+
+button {
+  color: white; background: #a47bba;
+  border: 0px;
+  box-shadow: 0 8px 16px rgba(0,0,0,.1),0 3px 6px rgba(0,0,0,.08);
+  padding: 20px 24px;
+  margin: 8px;
+  border-radius: 8px;
+  letter-spacing: .04em;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+  transition: transform 0.2s, background 0.2s;
+}
+
+button:hover {
+  box-shadow: 0 3px 6px rgba(0,0,0,.1),0 1px 3px rgba(0,0,0,.1);
+  transform: translateY(-2px);
+  background: #734d87;
+}
