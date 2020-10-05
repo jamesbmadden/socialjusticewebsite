@@ -1,1 +1,2 @@
-console.log('test');
+import { LitElement, html } from 'lit-element';
+import Tabs from './components/tabs';
