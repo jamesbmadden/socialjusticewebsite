@@ -153,6 +153,9 @@ body {
   .big-card {
     flex-direction: column;
   }
+  .big-card.inverse {
+    flex-direction: column;
+  }
 }
 
 .highlight-orange {
