@@ -124,6 +124,9 @@ body {
   padding: 1rem;
   margin-bottom: 2rem;
 }
+.big-card img {
+  max-height: 256px;
+}
 .big-card:last-child {
   margin-bottom: 4rem;
 }
